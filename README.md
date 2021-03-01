@@ -3,6 +3,7 @@ This project is a trivia game, building upon some code I made back in Grade 11 (
 
 ## Some helpful links
 https://www.tutorialspoint.com/json/json_java_example.htm -> JSON tutorial for Java
+
 https://opentdb.com/api_config.php -> Trivia Database API
 
 ## A TO-DO list
