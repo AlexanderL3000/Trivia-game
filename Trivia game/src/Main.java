@@ -1,4 +1,3 @@
-package Assignments;
 
 /*
  * Multiple Choice Assignment 4: This program is essentially a multiple choice quiz that is displayed on a user friendly interface. 
@@ -24,7 +23,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class LiAlexanderMultipleChoiceJavaX {
+public class Main {
 
 	// Since this program involves GUIs, we have to initialize a few global
 	// variables
@@ -172,7 +171,7 @@ public class LiAlexanderMultipleChoiceJavaX {
 				CheckAnswer();
 
 				// We increment the question number to move on to the next question
-				LiAlexanderMultipleChoiceJavaX.bytQuestionNum++;
+				Main.bytQuestionNum++;
 
 				// We run a method that stores all of the questions and answer choices
 				Questions(buttonResA, buttonResB, buttonResC, buttonResD, buttonStartAndEnd, textLabel1, textLabel2,
@@ -199,7 +198,7 @@ public class LiAlexanderMultipleChoiceJavaX {
 				CheckAnswer();
 
 				// We increment the question number to move on to the next question
-				LiAlexanderMultipleChoiceJavaX.bytQuestionNum++;
+				Main.bytQuestionNum++;
 
 				// We run a method that stores all of the questions and answer choices
 				Questions(buttonResA, buttonResB, buttonResC, buttonResD, buttonStartAndEnd, textLabel1, textLabel2,
@@ -226,7 +225,7 @@ public class LiAlexanderMultipleChoiceJavaX {
 				CheckAnswer();
 
 				// We increment the question number to move on to the next question
-				LiAlexanderMultipleChoiceJavaX.bytQuestionNum++;
+				Main.bytQuestionNum++;
 
 				// We run a method that stores all of the questions and answer choices
 				Questions(buttonResA, buttonResB, buttonResC, buttonResD, buttonStartAndEnd, textLabel1, textLabel2,
@@ -253,7 +252,7 @@ public class LiAlexanderMultipleChoiceJavaX {
 				CheckAnswer();
 
 				// We increment the question number to move on to the next question
-				LiAlexanderMultipleChoiceJavaX.bytQuestionNum++;
+				Main.bytQuestionNum++;
 
 				// We run a method that stores all of the questions and answer choices
 				Questions(buttonResA, buttonResB, buttonResC, buttonResD, buttonStartAndEnd, textLabel1, textLabel2,
@@ -279,7 +278,7 @@ public class LiAlexanderMultipleChoiceJavaX {
 
 				// This effectively starts off the quiz by incrementing the question number to 1
 				// and letting other parts of the code run.
-				LiAlexanderMultipleChoiceJavaX.bytQuestionNum++;
+				Main.bytQuestionNum++;
 
 				// This sets the GridLayout of the frame to 3 rows, 2 columns
 				frame.setLayout(new GridLayout(3, 2));
